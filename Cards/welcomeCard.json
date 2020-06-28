@@ -1,0 +1,39 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Auto Updater QnA Maker KB Bot",
+          "size": "ExtraLarge",
+          "wrap": true,
+          "weight": "Bolder",
+          "color": "Dark"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Update your QnA Maker Knowledge using the ChatBot. Add new question answer pairs to your KB with the help of bot interactive environment. You can also update and delete existing KB with this bot.",
+          "wrap": true
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Go to QnA Maker Portal",
+      "url": "https://www.qnamaker.ai/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Read Microsoft Documentation",
+      "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/overview"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2"
+}
